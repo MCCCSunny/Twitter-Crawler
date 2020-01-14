@@ -9,10 +9,10 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 from google.cloud import vision
-consumer_key = "your consumer key"
-consumer_secret = "your consumer secret"
-access_key = "your access key"
-access_secret = "your access secret"
+consumer_key = "AmNYCCKiLjGq5Na4gzFWo1lVh"
+consumer_secret = "f0ghWaxemJvK97Dor5MOMPN740QHeNyb4PQ6l3Dd2dGEYZEJ1j"
+access_key = "1214855339260219392-OYCZpaZMXIjZQTeL0Wr2Iz3vGDbcU4"
+access_secret = "FSn3wE29YtNHQRUCv0RI5CoaCg1yrVOpYpj7hb3k8iBsX"
 
 
 def get_label(path):#get label of image and cover the original file
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     #pass in the username of the account you want to download
     topic="@Tornado"
     get_all_tweets(topic)
-    subprocess.Popen("cd ./"+topic,shell=True)
-    subprocess.Popen("ffmpeg -r 60 -f image2 -s 1920x1080 -i pic%04d.jpg -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4",shell=True)
+    #subprocess.Popen("cd ./"+topic,shell=True)
+    #subprocess.Popen("ffmpeg -r 60 -f image2 -s 1920x1080 -i pic%04d.jpg -vcodec libx264 -crf 25  -pix_fmt yuv420p test.mp4",shell=True)
     
     
